@@ -40,8 +40,9 @@ public class TrainSchedule{
 				
 					 if(currentStation.stationFacility.contains(cde)){
 						  facilityExists = true;
-					 System.out.println("The station which having this facility is as follows......");
+					 System.out.println("The station that has "+cde+" facility is as follows......");
 					 currentStation.print();
+                                         System.out.println("The following train goes through this station......");
 					 currentTrain.print();
 					    }
 
